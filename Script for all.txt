@@ -1,18 +1,1 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Crypto ''NO SCRIPT IS MADE BY CRYPTONIS3D''", "Sentinel")
-local Tab = Window:NewTab("Games")
-local Section = Tab:NewSection("Press on the game you want to exploit on")
 
-Section:NewButton("Northside Chicago", "NC GUI", function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/HemLish/Game/main/NorthSide%20Chicago.lua"))()
-
-end)
-
-Section:NewButton("ZO", "ZO admin script", function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/YasinByn/zo/main/zo.txt"))()
-
-end)
-
-
-local Tab = Window:NewTab("Credits")
-local Section = Tab:NewSection("All credits are given in the youtube video/discord")
